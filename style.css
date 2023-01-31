@@ -1,0 +1,41 @@
+*,
+*::before,
+*:after {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  min-height: 10vh;
+  background-image: url('./images/header_bg.png');
+}
+main {
+  width: 100%;
+  height: fit-content;
+}
+.content-title {
+  text-align: center;
+  padding: 1rem;
+}
+.header-logo {
+  height: 8vh;
+  margin-left: 2rem;
+}
+
+.book-image {
+  width: 50%;
+}
+.book {
+  max-height: 50vh;
+
+  border: 2px solid burlywood;
+  aspect-ratio: 1/1.5;
+}
+.book-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  border: 2px solid blueviolet;
+}
+.add-book {
+  font-size: 1rem;
+}
