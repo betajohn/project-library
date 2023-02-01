@@ -23,11 +23,10 @@ main {
 }
 
 .book-image {
-  width: 50%;
+  width: 80%;
 }
 .book {
   max-height: 50vh;
-
   border: 2px solid burlywood;
   aspect-ratio: 1/1.5;
 }
@@ -38,4 +37,37 @@ main {
 }
 .add-book {
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#modal {
+  margin: auto;
+  padding: 1rem;
+  min-width: 10ch;
+  min-height: 40%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.formButtons,
+.formNumbers {
+  display: flex;
+}
+
+#title,
+#author {
+  width: 30ch;
+}
+#year,
+#pages {
+  width: 7ch;
+}
+.radioButtons {
+  display: flex;
+}
+label {
+  margin-right: 1rem;
 }
