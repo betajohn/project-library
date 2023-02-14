@@ -10,12 +10,14 @@ function handleForm(event) {
   form.reset();
 }
 
-function Book(title, author, year, pages, read) {
-  this.title = title;
-  this.author = author;
-  this.year = year;
-  this.pages = pages;
-  this.read = read;
+class Book {
+  constructor(title, author, year, pages, read) {
+    this.title = title;
+    this.author = author;
+    this.year = year;
+    this.pages = pages;
+    this.read = read;
+  }
 }
 
 function addBookToLibrary(book) {
